@@ -1,0 +1,22 @@
+{
+  "name": "angular-cybershield",
+  "version": "1.0.0",
+  "description": "Angular integration library for CyberShield WAF",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SECURAS",
+  "license": "ISC",
+  "peerDependencies": {
+    "@angular/common": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "@angular/core": "^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0",
+    "rxjs": "^6.0.0 || ^7.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^21.2.10",
+    "@angular/core": "^21.2.10",
+    "rxjs": "^7.8.2",
+    "typescript": "^6.0.3"
+  }
+}

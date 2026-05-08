@@ -1,0 +1,8 @@
+# Source TypeScript files (already compiled to dist/)
+*.ts
+tsconfig.json
+
+# Dev files
+node_modules/
+.git/
+*.md

@@ -7,7 +7,12 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true,
-    "strict": false
+    "strict": false,
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true
   },
-  "include": ["**/*.ts"]
+  "include": ["*.ts"],
+  "exclude": ["node_modules", "dist"]
 }
